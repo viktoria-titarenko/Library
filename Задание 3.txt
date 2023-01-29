@@ -1,0 +1,3 @@
+select Category.NameCategory, Product.NameProduct from Category  right join connect on Category.id = connect.idCategory right join Product on connect.idProduct = Product.id
+
+Были созданы 3 таблицы: Category с полями id, NameCategory, Product с полями id, NameProduct, connect с полями idProduct, idCategory.
